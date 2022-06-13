@@ -1,0 +1,5 @@
+#!/bin/bash
+rm /Library/ashesamurai/ardkick && \
+rm /usr/local/bin/ardkick && \
+pkgutil --forget wtf.ashe.ardkick && \
+exit 0

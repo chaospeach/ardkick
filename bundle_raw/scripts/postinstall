@@ -1,0 +1,9 @@
+#!/bin/bash
+LIBPATH="/Library/ashesamurai"
+BINPATH="/usr/local/bin"
+# Tool Paths
+KICKINSTALLPATH="$LIBPATH/ardkick"
+
+# Kickstart
+ln -s $KICKINSTALLPATH $BINPATH/ardkick && \
+exit 0
