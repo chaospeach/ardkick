@@ -6,10 +6,10 @@ After remotely ssh'ing to a Mac, running `ardkick` as sudo will restart the ARDA
 ## FAQ
 **Why is this a package and not just a bash/zsh alias?**
 <br />
-_This was designed for a Mac lab. I'd rather not have to hand-touch an entire lab to add and alias, and this is easily distrubuted and installed via MDM (e.g. Munki). Additionally it makes it available to all admin users, again without touching `.$SHELLrc`._
+_This was designed for a Mac lab. I'd rather not have to hand-touch an entire lab to add and alias, and this is easily distrubuted and installed via MDM (e.g. Munki). Additionally it makes it available to all admin users, again without touching `.$SHELLrc`. Oh, and I just wanted to 🤷‍♀️_
 
 ## Build Commands
-> If you want to build / sign yourself as opposed to using release packages.
+> If you want to build / sign yourself as opposed to using release packages. Admittedly these are mostly because I won't remember the commands later.
 
 | Purpose | Command | Notes |
 | --- | --- | --- |
