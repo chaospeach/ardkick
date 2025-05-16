@@ -1,5 +1,5 @@
 #!/bin/bash
-LIBPATH="/Library/ashesamurai"
+LIBPATH="/Library/chaospeach"
 BINPATH="/usr/local/bin"
 # Tool Paths
 KICKINSTALLPATH="$LIBPATH/ardkick"

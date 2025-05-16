@@ -13,8 +13,8 @@ _This was designed for a Mac lab. I'd rather not have to hand-touch an entire la
 
 | Purpose | Command | Notes |
 | --- | --- | --- |
-| Build Component Package | `pkgbuild --root ./root --scripts ./scripts --identifier $IDENTIFIER (e.g. wtf.ashe.ardkick) --version $VERSION  ../builds/ardkick_install.pkg` | _Run from inside the package directory's **bundle\_raw** folder. `--sign "$MYDEVID"` can be added to sign on creation, or `productsign` can be used after._ |
-| Build Component Uninstall Package | `pkgbuild --nopayload --scripts ./scripts --identifier $IDENTIFIER (e.g. wtf.ashe.ardkick) --version $VERSION ../builds/ardkick_uninstall.pkg` | _Run from inside the package directory's **uninstall** folder. `--sign "$MYDEVID"` can be added to sign on creation, or `productsign` can be used after._|
+| Build Component Package | `pkgbuild --root ./root --scripts ./scripts --identifier $IDENTIFIER (e.g. ch.chaospea.ardkick) --version $VERSION  ../builds/ardkick_install.pkg` | _Run from inside the package directory's **bundle\_raw** folder. `--sign "$MYDEVID"` can be added to sign on creation, or `productsign` can be used after._ |
+| Build Component Uninstall Package | `pkgbuild --nopayload --scripts ./scripts --identifier $IDENTIFIER (e.g. ch.chaospea.ardkick) --version $VERSION ../builds/ardkick_uninstall.pkg` | _Run from inside the package directory's **uninstall** folder. `--sign "$MYDEVID"` can be added to sign on creation, or `productsign` can be used after._|
 | Sign Packages/Products (after creation) | `productsign --sign "Developer ID Installer: Johnny Appleseed (01JOAP11)" $PACKAGE_IN.pkg $PACKAGE_OUT.pkg` | _Run from inside the package directory's **builds** folder (See package trees)._<br /><br /> Signing packages is best practices, but it does require an Apple Developer account. You don't _have to_, but you probably should. |
 
 

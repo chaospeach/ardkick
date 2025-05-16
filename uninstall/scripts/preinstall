@@ -1,5 +1,5 @@
 #!/bin/bash
-rm /Library/ashesamurai/ardkick && \
+rm /Library/chaospeach/ardkick && \
 rm /usr/local/bin/ardkick && \
-pkgutil --forget wtf.ashe.ardkick && \
+pkgutil --forget ch.chaospea.ardkick && \
 exit 0
